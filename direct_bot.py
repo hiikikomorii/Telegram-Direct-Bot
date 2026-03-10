@@ -22,7 +22,7 @@ def ban_user(message):
             banned["banned"].append(user_id)
             with open("banned_users.json", "w") as b:
                 json.dump(banned, b)
-            bot.send_message(ADMIN_ID, f"{user_id} был забанен 🔴")
+            bot.send_message(ADMIN_ID, f"{user_id} был забанен")
         else:
             bot.send_message(ADMIN_ID, f"ошибка бана {user_id}")
 
@@ -40,7 +40,7 @@ def unban_user(message):
             with open("banned_users.json", "w") as b:
                 json.dump(banned, b)
 
-            bot.send_message(ADMIN_ID, f"{user_id} был разбанен 🟢")
+            bot.send_message(ADMIN_ID, f"{user_id} был разбанен")
         else:
             bot.send_message(ADMIN_ID, f"{user_id} не был забанен")
 
@@ -128,5 +128,6 @@ def reply_to_user_photo(message):
     except Exception as e:
         bot.send_message(ADMIN_ID, "Не удалось отправить фото")
         print(e)
+
 
 bot.infinity_polling()
