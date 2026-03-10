@@ -34,9 +34,14 @@ The bot can receive messages from other users who have a spamblock
 
 ## Using
 1. **Set your `_TOKEN_` and `_ADMIN_ID_` in the script**
-2. **Run the bot:**
-```shell
-   python direct_bot.py
-```
-3. **``Enjoy``**
+2. **Install ``pyTelegramBotAPI``:**
+   ```
+   pip install pyTelegramBotAPI
+   ```
+3. **Run the bot:**
+   ```shell
+     python direct_bot.py
+   ```
+
+4. **``Enjoy``**
   
