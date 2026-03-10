@@ -27,7 +27,7 @@ The bot can receive messages from other users who have a spamblock
 ***
 
 ## Security
-* **only ``ADMIN_ID`` view messages, also can give ban and unban**
+* **only ``ADMIN_ID`` can ``view messages``, `give ban` and ``unban``**
 * **every action is logged and transmitted to `ADMIN_ID`. For example: using commands**
 
 ***
