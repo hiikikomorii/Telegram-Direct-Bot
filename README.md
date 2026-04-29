@@ -22,7 +22,7 @@ The bot can receive messages from other users who have a spamblock
 
 ## Commands
 * **``/ping`` - pings the bot**
-* **`/me` - your information. for example: ``language in app``, `ID`, `username`, `first name` and `last name`**
+* **`/me` - your information. for example: ``language in app``, `ID`, `username`, `account link`, `first name` and `last name`**
 
 ***
 
@@ -34,14 +34,12 @@ The bot can receive messages from other users who have a spamblock
 
 ## Using
 1. **Set your `_TOKEN_` and `_ADMIN_ID_` in the script**
-2. **Install ``pyTelegramBotAPI``:**
+2. **Install ``aiogram``:**
    ```
-   pip install pyTelegramBotAPI
+   pip install aiogram
    ```
 3. **Run the bot:**
    ```shell
-     python direct_bot.py
+     python direct.py
    ```
-
-4. **``Enjoy``**
   
